@@ -1,3 +1,5 @@
+var assApp = angular.module('assApp', []);
+
 angular.module("assApp", ["ngRoute"])
 	.config(function($routeProvider){
 		$routeProvider
