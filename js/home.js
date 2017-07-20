@@ -1,6 +1,4 @@
-var assApp = angular.module('assApp', []);
-
-angular.module("assApp", ["ngRoute"])
+angular.module("assApp", ["ngRoute", "assApp.about", "assApp.leader"])
 	.config(function($routeProvider){
 		$routeProvider
 			.when("/", {
@@ -16,5 +14,3 @@ angular.module("assApp", ["ngRoute"])
 				templateUrl: "contact.html"
 			})
 	})
-	.controller("insert-controller-here", function(){
-});
